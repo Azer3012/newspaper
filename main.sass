@@ -1,0 +1,523 @@
+.header-container
+    background: #04132D
+    .header-logo
+        display: flex
+        .logo-text
+            background: #0A396D
+            padding: 10px 15px
+            display: flex
+            align-items: center
+            .latest-icon
+                background: #04132D
+                color: white
+                display: block
+                width: 35px
+                height: 35px
+                border: 1px solid #04132D
+                border-radius: 50%
+                text-align: center
+                line-height: 35px
+                i
+                    font-size: 15px
+            .latest-news
+                color: white
+                font-family: "Nunito Sans", sans-serif
+                text-transform: capitalize
+                margin-left: 10px
+        .header-slide-text
+            background: #04132D
+.header-search
+    display: flex
+    align-items: center
+    justify-content: space-between
+    input
+        width: 70%
+        border: 2px solid#04132D
+        padding: 7px
+        background: #04132D
+        
+        
+        &:focus
+            outline-color: blue
+    span
+        color: white
+        cursor: pointer
+.header-menu
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    .header-menu-items
+        margin: 7px
+        .header-menu-links
+            color: white
+            &:hover
+                color: #2a63a5
+.section-menu
+    display: flex
+    
+    
+    .section-menu-items
+        margin: 7px
+        width: 60px
+        position: relative
+        height: 30px
+        text-align: center
+        line-height: 30px
+        margin-top: -19px
+        
+        
+
+        
+        
+       
+        
+        
+        
+        .news-menu
+            width: 200px
+            position: absolute
+            top: 36px
+            left: 0
+            display: none
+            background: #ffffff
+            z-index: 1 
+            border: 1px solid #dddddd
+                
+            .news-menu-items
+                text-align: left
+                padding-left: 10px
+                cursor: pointer
+                padding: 15px 5px
+                .world
+                    position: absolute
+                    left: 100%
+                    top: 0
+                    background: white
+                    width: 200px
+                    border: 1px solid #dddddd
+                    .world-items
+                        text-align: left
+                        padding-left: 10px
+                        cursor: pointer
+                        padding: 15px 5px
+                        &:hover
+                            background: #0E649B
+                            .world-links
+                                color: white
+                        .world-links
+                            text-decoration: none
+                            font-size: 15px
+                            font-family: "Nunito Sans", sans-serif
+                            color: #939393
+                            font-weight: 300
+                            text-transform: capitalize
+
+
+                &:hover
+                    background: #0E649B
+                    .news-menu-links
+                        color: white
+                .news-menu-links
+                    text-decoration: none
+                    font-size: 15px
+                    font-family: "Nunito Sans", sans-serif
+                    color: #939393
+                    font-weight: 300
+                    text-transform: capitalize
+                    
+                        
+
+        &:nth-child(2)
+            &:hover
+                
+                .news-menu
+                    display: block
+            
+            
+        
+        .section-menu-links
+            font-size: 15px
+            font-family: "Nunito Sans", sans-serif
+            color: #939393
+            font-weight: 300
+            text-transform: capitalize
+            text-decoration: none
+            &:hover
+                border-top: 3px solid #0a396d
+            
+            
+            
+            
+            
+            
+            i 
+                font-size: 14px
+                margin-left: 5px
+.section-container
+    background: #0E0E11
+   
+    .street
+        background-size: cover !important
+        background-repeat: no-repeat !important
+        position: relative
+        opacity: 0.7
+        &:hover
+            opacity: 1
+        
+        .street-content
+            position: absolute
+            bottom: 30px
+            left: 30px
+            .street-title
+                font-size: 33px
+                color: white
+                font-family: "Nunito Sans", sans-serif
+                font-weight: 700
+                margin-bottom: 10px
+                .street-title-link
+                    color: white
+                    text-decoration: none
+            .editorial
+                padding: 3px 7px 3px 10px
+                line-height: 25px
+                font-weight: 400
+                background: #0a396d
+                color: white
+                text-decoration: none
+                font-size: 13px
+                font-family: "Nunito Sans", sans-serif
+                text-transform: capitalize
+                &:hover
+                    background: #2a5c96
+            .date
+                color: white
+                text-transform: capitalize
+                font-weight: 400
+                margin-left: 13px
+                font-size: 12px
+                font-family: "Nunito Sans", sans-serif
+.kvartet
+    height: 180px
+    background-size: cover
+    background-repeat: no-repeat
+    position: relative
+    background-position: center
+    z-index: 1
+    transition:  0.6s background-size
+    &:hover
+        background-size: 120%
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: rgba(1 , 1 ,16 , 0.8)
+        z-index: -1
+    .kvartet-content
+        position: absolute
+        bottom: 20px
+        left: 20px
+        .kvartet-title
+            font-size: 14px
+            color: white
+            font-family: "Nunito Sans", sans-serif
+            font-weight: 700
+            margin-bottom: 10px
+            .kvartet-title-link
+                color: white
+                text-decoration: none
+        .kvartet-editorial
+            padding: 3px 7px 3px 10px
+            line-height: 25px
+            font-weight: 400
+            background: #0a396d
+            color: white
+            text-decoration: none
+            font-size: 13px
+            font-family: "Nunito Sans", sans-serif
+            text-transform: capitalize
+            &:hover
+                background: #2a5c96
+        .kvartet-date
+            color: white
+            text-transform: capitalize
+            font-weight: 400
+            margin-left: 13px
+            font-size: 12px
+            font-family: "Nunito Sans", sans-serif
+.news-title
+    padding: 2px 0
+    font-weight: 700
+    font-family: "Nunito Sans", sans-serif
+    font-size: 24px
+    border-left: 5px solid #0f5fa3
+    position: relative
+    text-transform: uppercase
+    margin-bottom: 25px
+    margin-top: 65px
+    &::after
+        content: ''
+        width: 100%
+        height: 0px
+        border-bottom: 1px dotted #b7b7b7
+        position: absolute
+        display: block
+        top: 12px
+        right: 0
+    span
+        padding-left: 18px
+        background-color: #FFF
+        z-index: 1
+        font-family: "Nunito Sans", sans-serif
+        position: relative
+        padding-right: 18px
+        color: #001936
+        font-size: 24px
+        font-weight: 900
+.square
+    .square-img
+        height: 230px
+        overflow: hidden
+
+        &:hover
+            img
+                transform: scale(1.1)
+        .square-img-link
+            display: block
+            height: 100%
+            img
+                height: 100%
+                width: 100%
+                transition: 0.4s
+    .square-title
+        clear: both
+        -ms-word-wrap: break-word
+        word-wrap: break-word
+        color: #333
+        font-family: "Nunito Sans", sans-serif
+        font-weight: 700
+        margin: 10px 0
+        font-size: 22px
+        line-height: 24px
+        .square-title-link
+            color: #001936
+            font-weight: 700
+            text-decoration: none
+            text-transform: capitalize
+    .square-news
+        padding: 3px 7px 3px 10px
+        line-height: 25px
+        font-weight: 400
+        background: #0a396d
+        &:hover
+            background: #215086
+        .square-news-link
+            color: #fff
+            font-size: 13px
+            font-family: "Nunito Sans", sans-serif
+            text-decoration: none
+            text-transform: capitalize
+    .square-name
+        .square-name-link
+            color: #0a396d
+            padding-right: 7px
+            margin-right: 7px
+            border-right: 1px solid #bfbfbf
+            text-decoration: none
+    .square-date
+        line-height: 25px
+        font-weight: 400
+        margin-left: 13px
+        font-size: 12px
+        font-family: "Nunito Sans", sans-serif
+        color: #bfbfbf
+        text-transform: capitalize
+    .square-text
+        font-weight: 400
+        line-height: 20px
+        color: #8c9597
+        margin-top: 10px
+.small-square
+    border-bottom: 1px dotted #d7d7d7
+    padding-bottom: 1px
+    margin-bottom: 25px
+    .small-square-img
+        height: 85px
+        overflow: hidden
+        margin-bottom: 25px
+        &:hover
+            img
+                transform: scale(1.1)
+        .small-img-link
+            display: block
+            width: 100%
+            height: 100%
+            img
+                width: 100%
+                height: 100%
+    .small-square-title
+        text-transform: capitalize
+        margin-bottom: 10px
+        margin-top: 5px
+        
+        .small-title-link
+            text-decoration: none
+            font-size: 15px
+            font-weight: 700
+            word-wrap: break-word
+            color: #333
+
+    .small-square-date
+        text-transform: capitalize
+        line-height: 25px
+        font-weight: 400
+        font-size: 12px
+        font-family: "Nunito Sans", sans-serif
+        color: #bfbfbf
+.footer-container
+    background: #001228
+    .footer-about
+        .footer-about-title
+            font-family: "Nunito Sans", sans-serif
+            font-size: 20px
+            text-transform: uppercase
+            font-weight: 700
+            margin-bottom: 25px
+            color: #FFF
+        .footer-about-text
+            color: #a9afb5
+            font-family: "Nunito Sans", sans-serif
+            font-size: 15px
+    .footer-post
+        .footer-post-title
+            font-family: "Nunito Sans", sans-serif
+            font-size: 20px
+            text-transform: uppercase
+            font-weight: 700
+            margin-bottom: 25px
+            color: #FFF
+        .post-menu    
+            .post-menu-item 
+                margin-bottom: 20px
+                .post-menu-links
+                    display: block
+                    font-size: 15px
+                    font-family: "Nunito Sans", sans-serif
+                    color: #a9afb5
+                    text-decoration: none
+                    font-weight: 400
+                    margin-bottom: 15px
+                    &:hover
+                        color:  #0e649b
+                .post-date
+                    color: #455263
+                    font-size: 12px
+                    text-transform: capitalize
+    .footer-category
+        .footer-cat-title
+            font-family: "Nunito Sans", sans-serif
+            font-size: 20px
+            text-transform: uppercase
+            font-weight: 700
+            margin-bottom: 25px
+            color: #FFF
+
+        .cat-menu
+            .cat-menu-items
+                border-bottom: 1px dotted rgba(225, 225, 225, 0.1)
+                padding-bottom: 5px
+                margin-bottom: 5px
+                display: flex
+                justify-content: space-between
+                &:hover
+                    .cat-menu-links,span
+                        color: #0e649b
+                .cat-menu-links
+                    display: block
+                    font-size: 15px
+                    font-family: "Nunito Sans", sans-serif
+                    color: #a9afb5
+                    text-decoration: none
+                    font-weight: 400
+                    margin-bottom: 15px
+                    text-transform: capitalize
+    .footer-contact
+        .contact-title
+            font-family: "Nunito Sans", sans-serif
+            font-size: 20px
+            text-transform: uppercase
+            font-weight: 700
+            margin-bottom: 25px
+            color: #FFF
+        .phone
+            font-size: 15px
+            font-family: "Nunito Sans", sans-serif
+            margin-bottom: 20px
+            color: #fff
+            font-weight: 700
+            a
+                font-weight: 400
+                color: #a9afb5
+                text-decoration: none
+                &:hover
+                    color: #0e649b
+            span
+                font-weight: 400
+                color: #a9afb5
+        .footer-con-menu
+            display: flex
+            margin-top: 40px       
+            .con-items
+                min-width: 35px
+                min-height: 35px
+                border-radius: 50%
+                margin-right: 20px
+                text-align: center
+                line-height: 35px
+                &:hover
+                    opacity: 0.8
+                .con-links
+                    color: white
+                    text-decoration: none
+.last-container
+    background-color: #000f20
+    .copy
+        font-size: 15px
+        color: #fff
+        font-family: "Nunito Sans", sans-serif
+        a 
+            color: white
+            text-decoration: none
+            text-transform: capitalize
+    .last-menu
+        display: flex
+        .last-menu-items
+            margin-left: 20px
+            .last-menu-links
+                color: white
+                text-transform: capitalize
+                text-decoration: none
+                    
+
+
+
+
+
+
+                    
+                        
+                        
+
+
+
+
+                
+            
+
+
+
+
+            
+                
